@@ -1,7 +1,7 @@
 import TopCollectionsItem from '../TopCollectionsItem'
 import InfoComponent from '../InfoComponent'
 import {TopCollectionsData} from '../../data/data-components/data-TopCollections.js'
-// import TopCollectionsData from './data.json'
+//import TopCollectionsData from './data.json'
 
 function TopCollectionsContainer(){
 
