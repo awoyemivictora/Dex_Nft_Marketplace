@@ -196,7 +196,7 @@ module.exports = __webpack_require__.p + "static/media/bread.279da6e8.png";
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = __webpack_require__.p + "static/media/header-1.b79b0b12.jpg";
+module.exports = __webpack_require__.p + "static/media/header-1.17000322.jpg";
 
 /***/ }),
 
@@ -207,7 +207,7 @@ module.exports = __webpack_require__.p + "static/media/header-1.b79b0b12.jpg";
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = __webpack_require__.p + "static/media/header-2.fb7b443c.jpg";
+module.exports = __webpack_require__.p + "static/media/header-2.17000322.jpg";
 
 /***/ }),
 

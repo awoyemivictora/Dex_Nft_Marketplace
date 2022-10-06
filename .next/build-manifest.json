@@ -15,10 +15,20 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
+    "/Discover": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/Discover.js"
+    ],
+    "/Discover2": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Discover2.js"
+    ],
+    "/Discover3": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Discover3.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
