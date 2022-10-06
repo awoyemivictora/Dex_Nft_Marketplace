@@ -76,8 +76,19 @@ const Header = dynamic(
   },
   { ssr: false }
 );
+
 import HomeContainer from '../containers/Home';
+
 import Footer from '../layouts/Footer';
+import HeroContainer from '../components/Hero';
+import TopCollectionsContainer from '../components/TopCollections';
+import TopSellersContainer from '../components/TopSellers';
+import CardSection from '../containers/Authors';
+import ListedItemsContainer from '../components/ListedItems';
+import LiveAuctionsContainer from '../components/LiveAuctions';
+
+
+
 
 // import '../assets/css/home.css'
 // import './home.css'
@@ -86,7 +97,17 @@ const Home = () => {
 
   return (
     <>
-      <HomeContainer />
+      <Header />
+      <HeroContainer />
+      <TopCollectionsContainer />
+      <TopSellersContainer />
+      
+      <ListedItemsContainer />
+      <LiveAuctionsContainer />
+      
+      
+      <Footer />
+     
 
     </>
   );

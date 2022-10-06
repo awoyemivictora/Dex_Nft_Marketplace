@@ -1,0 +1,20 @@
+{
+  "../layouts/Header/index.jsx -> ../../components/Preloader": {
+    "id": "./components/Preloader/index.jsx",
+    "files": [
+      "static/chunks/components_Preloader_index_jsx.js"
+    ]
+  },
+  "HomeDemo1.jsx -> ../layouts/Header": {
+    "id": "./layouts/Header/index.jsx",
+    "files": [
+      "static/chunks/layouts_Header_index_jsx.js"
+    ]
+  },
+  "index.js -> ../layouts/Header": {
+    "id": "./layouts/Header/index.jsx",
+    "files": [
+      "static/chunks/layouts_Header_index_jsx.js"
+    ]
+  }
+}
