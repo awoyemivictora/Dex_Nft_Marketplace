@@ -1,0 +1,16 @@
+[
+    {    
+        "iconsData" :[
+            {"icoClass":"fa fa-facebook-f"},{"icoClass":"fa fa-twitter"},
+            {"icoClass":"fa fa-google-plus"},{"icoClass":"fa fa-linkedin"},
+            {"icoClass":"fa fa-instagram"}        
+        ]
+    },
+    {    
+        "infoData":[
+            {"text":"10, Mc Donald Avenue, Sunset Park, Newyork"},
+            {"text":"(+2) 01223072359"},
+            {"text":"mohmadgamal1000@gmail.com"}
+        ]
+    }
+]

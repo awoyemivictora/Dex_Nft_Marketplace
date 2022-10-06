@@ -1,0 +1,263 @@
+
+/* ##### Sidebar CSS ##### */
+
+.search-widget-area form {
+    position: relative;
+    z-index: 1;
+}
+
+.search-widget-area form input {
+    width: 100%;
+    height: 45px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+    padding: 0 15px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 30px;
+}
+
+.search-widget-area form button {
+    width: 60px;
+    height: 45px;
+    background-color: transparent;
+    padding: 0 15px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.widget-title h5 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #fff;
+    padding: 0 0 5px 0;
+}
+.width-100{width: 100%}
+.dont-miss-post-content > a {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    margin-top: 15px;
+}
+
+.dont-miss-post-content > span {
+    font-size: 12px;
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+}
+
+.subscribe-form input {
+    width: 100%;
+    height: 45px;
+    border-radius: 45px;
+    border: none;
+    padding: 0 20px;
+    font-size: 12px;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.subscribe-form button {
+    width: 100%;
+    height: 45px;
+    border-radius: 45px;
+    border: none;
+    font-size: 12px;
+    padding: 0;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+/* ##### Timeline CSS ##### */
+
+.timelineBox {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.timelineHeader {
+    padding: 32px;
+    padding: 32px;
+    padding: 2rem;
+    background: rgba(255,255,255,0.03);
+    position: relative;
+    z-index: 3;
+}
+
+.timelineHeader h3 {
+    font-size: 32px;
+    font-size: 32px;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.timelineHeader h3 + span {
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.timelineBody {
+    max-height: 480px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.timelineBody .timeline {
+    padding: 2em;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    z-index: 2;
+}
+
+.timelineBody .timeline li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding: 1em 0;
+    position: relative;
+}
+.timelineBody .timeline li:before{
+    position: absolute;
+    content: '';
+    left: 7px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #25cbd3
+}
+
+.timelineBody .timeline li:last-child {
+    margin-bottom: 0;
+}
+
+.timelineBody .timeline .timelineDot {
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    border-radius: 2rem;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 15px;
+    flex: 0 0 15px;
+    margin-right: auto;
+    margin-top: 6px;
+    box-shadow: 0 0 8px #56cb5f;
+}
+
+.timelineBody .timeline .timelineDot:after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 3px;
+    height: 9px;
+    width: 9px;
+    background: #25cbd3;
+    border-radius: 50%;
+}
+
+.timelineBody .timeline .timelineDate {
+    font-size: 14px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100px;
+    flex: 0 0 100px;
+    padding: 0;
+}
+
+.timelineBody .timeline .timelineDate p {
+    color: #25cbd3;
+    margin-bottom: 0
+}
+
+.timelineBody .timeline .timelineWork {
+    font-size: 16px;
+    margin-left: auto;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 65%;
+    flex: 0 0 65%;
+}
+
+.timelineBody .timeline .timelineWork h6 {
+    color: #fff;
+}
+
+.timelineBody .timeline .timelineWork span {
+    display: inline-block;
+    color: #bdbdbd;
+    font-size: 13px;
+}
+.filter-item{
+    border: 1px solid #ddd;
+    padding: 7px 20px;
+    display: inline-block;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.filter-item:hover{color: #917af9}
+.filter-item img{
+    padding-right: 10px;
+    max-width: 25px
+}
+
+.lock {
+    position: relative;
+    overflow: hidden;
+    padding-top: 27px;
+    padding-top: 15px
+}
+.lock img {
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    margin: 0px 20px;
+}
+.lock img:first-child {
+    margin-left: 0;
+}
+.lock .ball {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    margin: 38px 4px 0 4px;
+    vertical-align: middle;
+    display: inline-block;
+    float: left;
+}
+.lock .ball.ball_active {
+    background: #1666ed;
+    background: -moz-linear-gradient(45deg, #1666ed 0%, #57c6f3 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #1666ed), color-stop(100%, #57c6f3));
+    background: -webkit-linear-gradient(45deg, #1666ed 0%, #57c6f3 100%);
+    background: -o-linear-gradient(45deg, #1666ed 0%, #57c6f3 100%);
+    background: -ms-linear-gradient(45deg, #1666ed 0%, #57c6f3 100%);
+    background: linear-gradient(45deg, #1666ed 0%, #57c6f3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1666ed', endColorstr='#57c6f3', GradientType=1 );
+}
+.lock .ball.ball_blue {
+    background: #22047a;
+}
