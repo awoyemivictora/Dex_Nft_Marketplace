@@ -7,15 +7,7 @@
             },
             {
                 "path":"/Discover",
-                "title":"Discover style 1"
-            },
-            {
-                "path":"/Discover2",
-                "title":"Discover style 2"
-            },
-            {
-                "path":"/Discover3",
-                "title":"Discover style 3"
+                "title":"Discover NFT"
             },
             {
                 "path":"/ItemDetails",
@@ -27,7 +19,7 @@
         "dataDown" : [
             {
                 "path":"/ConnectWallet",
-                "title":"Wallet Connec"
+                "title":"Wallet Connect"
             },
             {
                 "path":"/CreateItem",
@@ -54,13 +46,10 @@
     },
     {
         "CommunityData":[
-            {
-                "path":"/Blog1",
-                "title":"Blog 1"
-            },
+
             {
                 "path":"/Blog2",
-                "title":"Blog 2"
+                "title":"Blog"
             },
             {
                 "path":"/Details",

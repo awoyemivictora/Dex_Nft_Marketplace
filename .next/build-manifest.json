@@ -15,20 +15,20 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/Discover": [
+    "/Authors": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Discover.js"
+      "static/chunks/pages/Authors.js"
     ],
-    "/Discover2": [
+    "/ItemDetails": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Discover2.js"
+      "static/chunks/pages/ItemDetails.js"
     ],
-    "/Discover3": [
+    "/SignUps": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Discover3.js"
+      "static/chunks/pages/SignUps.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

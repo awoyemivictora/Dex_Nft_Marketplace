@@ -911,7 +911,7 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n * Ou
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('[{"dataUp":[{"path":"/Auctions","title":"Live Auctions"},{"path":"/Discover","title":"Discover style 1"},{"path":"/Discover2","title":"Discover style 2"},{"path":"/Discover3","title":"Discover style 3"},{"path":"/ItemDetails","title":"Item Details"}]},{"dataDown":[{"path":"/ConnectWallet","title":"Wallet Connec"},{"path":"/CreateItem","title":"Create Item"},{"path":"/Authors","title":"Authors"},{"path":"/Profile","title":"Author Profile"},{"path":"/Logins","title":"Login"},{"path":"/SignUps","title":"Sign Up"}]},{"CommunityData":[{"path":"/Blog1","title":"Blog 1"},{"path":"/Blog2","title":"Blog 2"},{"path":"/Details","title":"Post Details"}]}]');
+module.exports = JSON.parse('[{"dataUp":[{"path":"/Auctions","title":"Live Auctions"},{"path":"/Discover","title":"Discover NFT"},{"path":"/ItemDetails","title":"Item Details"}]},{"dataDown":[{"path":"/ConnectWallet","title":"Wallet Connect"},{"path":"/CreateItem","title":"Create Item"},{"path":"/Authors","title":"Authors"},{"path":"/Profile","title":"Author Profile"},{"path":"/Logins","title":"Login"},{"path":"/SignUps","title":"Sign Up"}]},{"CommunityData":[{"path":"/Blog2","title":"Blog"},{"path":"/Details","title":"Post Details"}]}]');
 
 /***/ })
 

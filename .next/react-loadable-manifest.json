@@ -1,44 +1,26 @@
 {
-  "../containers/Discover2/index.jsx -> ../../components/FilterSec": {
-    "id": "./components/FilterSec/index.jsx",
-    "files": [
-      "static/chunks/components_FilterSec_index_jsx.js"
-    ]
-  },
-  "../containers/Discover3/index.jsx -> ../../components/FilterSec": {
-    "id": "./components/FilterSec/index.jsx",
-    "files": [
-      "static/chunks/components_FilterSec_index_jsx.js"
-    ]
-  },
   "../layouts/Header/index.jsx -> ../../components/Preloader": {
     "id": "./components/Preloader/index.jsx",
     "files": [
       "static/chunks/components_Preloader_index_jsx.js"
     ]
   },
-  "Discover.jsx -> ../layouts/Header": {
-    "id": "./layouts/Header/index.jsx",
-    "files": [
-      "static/chunks/layouts_Header_index_jsx-_481f2.js"
-    ]
-  },
-  "Discover2.jsx -> ../containers/Discover2": {
-    "id": "./containers/Discover2/index.jsx",
-    "files": [
-      "static/chunks/containers_Discover2_index_jsx.js"
-    ]
-  },
-  "Discover2.jsx -> ../layouts/Header": {
-    "id": "./layouts/Header/index.jsx",
-    "files": [
-      "static/chunks/layouts_Header_index_jsx-_481f0.js"
-    ]
-  },
-  "Discover3.jsx -> ../layouts/Header": {
+  "Authors.jsx -> ../layouts/Header": {
     "id": "./layouts/Header/index.jsx",
     "files": [
       "static/chunks/layouts_Header_index_jsx-_481f1.js"
+    ]
+  },
+  "ItemDetails.jsx -> ../layouts/Header": {
+    "id": "./layouts/Header/index.jsx",
+    "files": [
+      "static/chunks/layouts_Header_index_jsx-_481f1.js"
+    ]
+  },
+  "SignUps.jsx -> ../layouts/Header": {
+    "id": "./layouts/Header/index.jsx",
+    "files": [
+      "static/chunks/layouts_Header_index_jsx-_481f0.js"
     ]
   }
 }
