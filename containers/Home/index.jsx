@@ -14,7 +14,7 @@ const HomeContainer = () => {
               {/*<img draggable="false" src="img/svg/section-icon-11.svg" alt="" />*/}
             </div>
             <h2 className="wow fadeInUp" data-wow-delay="0.3s">Choose a demo</h2>
-            <p className="wow fadeInUp g-text" data-wow-delay="0.4s">Our NFT Template will be a perfect platform for presenting NFT Marketplace launch. This Landing Page comes in great and clean design</p>
+            <p className="wow fadeInUp g-text" data-wow-delay="0.4s">Discover the most amazing NFTs in every aspects of life which you can easily buy and sell as well.</p>
           </div>
           <div className="row">
           	{data && data.map((item , key) => (

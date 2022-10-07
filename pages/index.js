@@ -83,9 +83,10 @@ import Footer from '../layouts/Footer';
 import HeroContainer from '../components/Hero';
 import TopCollectionsContainer from '../components/TopCollections';
 import TopSellersContainer from '../components/TopSellers';
-import CardSection from '../containers/Authors';
+//import CardSection from '../containers/Authors';
 import ListedItemsContainer from '../components/ListedItems';
 import LiveAuctionsContainer from '../components/LiveAuctions';
+//import HeroSection from '../../components/HeroSection'
 
 
 
@@ -98,6 +99,7 @@ const Home = () => {
   return (
     <>
       <Header />
+      
       <HeroContainer />
       <TopCollectionsContainer />
       <TopSellersContainer />

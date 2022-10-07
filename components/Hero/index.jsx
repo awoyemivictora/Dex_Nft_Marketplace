@@ -18,13 +18,13 @@ const HeroContainer = ({
 	                    <div className="col-12 col-lg-6 col-md-12">
 	                        <div className="welcome-content">
 	                            <div className="promo-section">
-	                                <h3 className="special-head gradient-text">{title}</h3>
+	                                <h3 className="special-head gradient-text">Discover, Collect, and sell NFTs</h3>
 	                            </div>
-	                            <h1>{textUp} <span className="gradient-t">{SpanTex}</span> </h1>
+	                            <h1>Discover the most outstanding NTFs - <span className="gradient-t">Create your NTFs and start selling them.</span> </h1>
 	                            <p className="w-text">{textDown}</p>
 	                            <div className="dream-btn-group">
-	                                <button className="btn btn-explore more-btn mr-3">{linkUp}</button>
-	                                <button className="btn btn-Collect more-btn">{linkDown}</button>
+	                                <button className="btn btn-explore more-btn mr-3">EXPLORE MORE</button>
+	                                <button className="btn btn-Collect more-btn">COLLECT NFTS</button>
 	                            </div>
 	                        </div>
 	                    </div>

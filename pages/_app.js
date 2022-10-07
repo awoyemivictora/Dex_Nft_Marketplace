@@ -6,9 +6,12 @@ import '../assets/css/countdown.css'
 import '../assets/css/flip-countdown.scss'
 import '../assets/css/slide-countdown.scss'
 
+import {NFTMarketplaceProvider} from "../Context/NFTMarketplaceContext";
+
 function MyApp({ Component, pageProps }) {
   return (
   			<>
+			<NFTMarketplaceProvider>
 		        <Head>
 		            <meta charSet="utf-8" />
 		            <meta name="robots" content="noindex, follow" />
@@ -28,6 +31,7 @@ function MyApp({ Component, pageProps }) {
 					<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 		        </Head>
   				<Component {...pageProps} />
+				  </NFTMarketplaceProvider>
   			</>
   		)	
 }

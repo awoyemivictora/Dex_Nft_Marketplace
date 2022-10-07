@@ -8,8 +8,14 @@ import {Addshrink} from '../../utils'
 // import Preloader from '../../components/Preloader'
 import data from '../../data/data-layouts/data-Head.json'
 
+import React, {useState, useContext} from "react";
+
+// SMART CONTRACT IMPORT
+import { NFTMarketplaceContext } from "Context/NFTMarketplaceContext";
+
 const Preloader = dynamic(
   () => {
+    const {titleData} = useContext(NFTMarketplaceContext);
     return import('../../components/Preloader');
   },
   { ssr: false }

@@ -8,9 +8,12 @@
     "export": "next export"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
     "@popperjs/core": "^2.9.3",
     "aos": "^2.3.4",
+    "axios": "^1.1.0",
     "bootstrap": "^4.5.3",
+    "ipfs-http-client": "^58.0.1",
     "isotope-cells-by-row": "^1.1.4",
     "isotope-layout": "^3.0.6",
     "jquery": "^3.6.0",
@@ -20,9 +23,25 @@
     "popper.js": "^1.16.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "sass": "^1.39.2"
+    "sass": "^1.39.2",
+    "web3modal": "^1.9.9"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.0.0-beta.12"
+    "@ethersproject/abi": "^5.4.7",
+    "@ethersproject/providers": "^5.4.7",
+    "@netlify/plugin-nextjs": "^4.0.0-beta.12",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
+    "chai": "^4.2.0",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.11.1",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.0",
+    "typechain": "^8.1.0"
   }
 }

@@ -15,20 +15,15 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/Authors": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Authors.js"
+      "static/chunks/pages/index.js"
     ],
-    "/ItemDetails": [
+    "/Auctions": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/ItemDetails.js"
-    ],
-    "/SignUps": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/SignUps.js"
+      "static/chunks/pages/Auctions.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

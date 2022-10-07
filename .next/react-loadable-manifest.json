@@ -5,22 +5,16 @@
       "static/chunks/components_Preloader_index_jsx.js"
     ]
   },
-  "Authors.jsx -> ../layouts/Header": {
+  "Auctions.jsx -> ../layouts/Header": {
     "id": "./layouts/Header/index.jsx",
     "files": [
-      "static/chunks/layouts_Header_index_jsx-_481f1.js"
+      "static/chunks/layouts_Header_index_jsx.js"
     ]
   },
-  "ItemDetails.jsx -> ../layouts/Header": {
+  "index.js -> ../layouts/Header": {
     "id": "./layouts/Header/index.jsx",
     "files": [
-      "static/chunks/layouts_Header_index_jsx-_481f1.js"
-    ]
-  },
-  "SignUps.jsx -> ../layouts/Header": {
-    "id": "./layouts/Header/index.jsx",
-    "files": [
-      "static/chunks/layouts_Header_index_jsx-_481f0.js"
+      "static/chunks/layouts_Header_index_jsx.js"
     ]
   }
 }
