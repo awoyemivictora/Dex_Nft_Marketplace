@@ -18,6 +18,7 @@ function CardContainer({imgBig , imgSm ,name}){
                     <Link href="/profile"><a className="more-btn mt-15">Follow</a></Link>
                 </div>
                 
+                
             </div>
         </div>
 	)
