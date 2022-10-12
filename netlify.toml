@@ -1,6 +1,3 @@
-[build]
-  command = "npm run build"
-  publish = ".next"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0e719612d372a0f73fdf39b4fd9e31daee936294229f0af0e3d6027a64d39f3
+size 105

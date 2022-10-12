@@ -1,17 +1,15 @@
 import dynamic from "next/dynamic";
 import Link from 'next/link'
 import {useRouter} from 'next/router';
-import {useEffect} from "react";
+import {useEffect, useContext, useState} from "react";
 // import './navbar.css'
 import {NavbarLogo} from '../../utils/allImgs'
 import {Addshrink} from '../../utils'
 // import Preloader from '../../components/Preloader'
 import data from '../../data/data-layouts/data-Head.json'
 
-import React, {useState, useContext} from "react";
-
-// SMART CONTRACT IMPORT
-import { NFTMarketplaceContext } from "Context/NFTMarketplaceContext";
+// IMPORT SMART CONTRACT
+import { NFTMarketplaceContext } from "../../Context/NFTMarketplaceContext";
 
 const Preloader = dynamic(
   () => {
@@ -31,6 +29,8 @@ function Header({Title}){
 
     const router = useRouter()
 
+    //SMART CONTRACT SECTION
+    const {connectWallet, walletConnected, currentAccount} = useContext(NFTMarketplaceContext);
 
   return(
     <>
@@ -106,11 +106,19 @@ function Header({Title}){
                                 </a>
                             </Link>
                         </li>
-                        <li className="lh-55px"><Link href="/ConnectWallet">
+                        {/* <li className="lh-55px"><Link href="/ConnectWallet">
                             <a className="btn login-btn ml-50">
                                 Connect Wallet
                             </a>
-                        </Link></li>
+                        </Link></li> */}
+
+                        {/* <button type="button" onClick={connectWallet}> click me </button> */}
+                        {/* <li className='lh-55px'> { walletConnected ? (<span className="btn btn-login ...." onClick={connectWallet} >Create Item</span>) : (<span className="btn btn-login ...." onClick={connectWallet}>  Connect wallet</span>)}</li> */}
+                        <li className='lh-55px'> { walletConnected ? (<Link className="nav-link" href="/CreateItem"><a className="btn login-btn ml-50">Create Item</a></Link>) : (<a className="btn login-btn ml-50" onClick={()=> {window.location.reload(); connectWallet();} } >Connect Wallet</a>)}</li>
+                        {/* <li className='lh-55px'> { currentAccount == "" ? (<span className="Connect" handleClick={() => connectWallet()} />) : (<Link href={{pathname: "/"}}><span className="Create Item" /></Link> )} </li> */}
+
+
+                        {/* <li className="nav-item">{walletConnected ? (<Link className="nav-link" href="/CreateItem"><button type="button"> CreateItem</button></Link>) : (<button type="button" onClick={connectWallet}> Connect wallet </button>)}</li> */}
                     </ul>
                 </div>
             </div>

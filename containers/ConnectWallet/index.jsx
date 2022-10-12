@@ -3,6 +3,7 @@ import InfoComponent from '../../components/InfoComponent'
 import FeaturesList from './FeaturesList'
 import ImageBox from './ImageBox'
 import CardSection from './CardSection'
+import { CONNECT_BUTTON_CLASSNAME } from 'web3modal'
 
 const ConnectWalletContainer = () => {
 

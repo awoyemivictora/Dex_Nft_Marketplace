@@ -1,18 +1,3 @@
-# lodash.throttle v4.1.1
-
-The [lodash](https://lodash.com/) method `_.throttle` exported as a [Node.js](https://nodejs.org/) module.
-
-## Installation
-
-Using npm:
-```bash
-$ {sudo -H} npm i -g npm
-$ npm i --save lodash.throttle
-```
-
-In Node.js:
-```js
-var throttle = require('lodash.throttle');
-```
-
-See the [documentation](https://lodash.com/docs#throttle) or [package source](https://github.com/lodash/lodash/blob/4.1.1-npm-packages/lodash.throttle) for more details.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f710de3191e7f4145cec7a87c6480254c36d5a84fef82f3b8c27ac5166400293
+size 467

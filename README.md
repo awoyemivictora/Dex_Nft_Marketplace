@@ -1,13 +1,3 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2ed074f3442e9c99bf095b7793ee5fe71012ca4fa2eba22fa728a4237f5cb1c
+size 352

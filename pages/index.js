@@ -86,15 +86,21 @@ import TopSellersContainer from '../components/TopSellers';
 //import CardSection from '../containers/Authors';
 import ListedItemsContainer from '../components/ListedItems';
 import LiveAuctionsContainer from '../components/LiveAuctions';
-//import HeroSection from '../../components/HeroSection'
+import React, {useContext, useState, useEffect} from "react";
+import { NFTMarketplaceContext } from "../Context/NFTMarketplaceContext";
+
+//import React, {useContext, useEffect, useState} from "react";
 
 
 
-
-// import '../assets/css/home.css'
+// import '../assets/css/home.css' 
 // import './home.css'
 
 const Home = () => {
+  const { checkIfWalletConnected } = useContext(NFTMarketplaceContext);
+  useEffect(()=> {
+    checkIfWalletConnected()
+  }, []);
 
   return (
     <>

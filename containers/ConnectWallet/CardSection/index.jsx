@@ -1,9 +1,17 @@
+import React, { useContext, useEffect, useState } from 'react';
+
 import InfoComponent from '../../../components/InfoComponent'
 import Card from '../../../components/Card'
 // import Authors from './data.json'
 import {Authors} from '../../../data/data-containers/data-ConnectWallet'
 
+
+//SMART CONTRACT IMPORT
+import { NFTMarketplaceContext } from "../../../Context/NFTMarketplaceContext";
+
+
 const CardSection = () => {
+	const { connectWallet } = useContext(NFTMarketplaceContext);
 
   return (
     <>

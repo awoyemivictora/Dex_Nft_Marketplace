@@ -1,17 +1,3 @@
-{
-  "name": "lodash.throttle",
-  "version": "4.1.1",
-  "description": "The lodash method `_.throttle` exported as a module.",
-  "homepage": "https://lodash.com/",
-  "icon": "https://lodash.com/icon.svg",
-  "license": "MIT",
-  "keywords": "lodash-modularized, throttle",
-  "author": "John-David Dalton <john.david.dalton@gmail.com> (http://allyoucanleet.com/)",
-  "contributors": [
-    "John-David Dalton <john.david.dalton@gmail.com> (http://allyoucanleet.com/)",
-    "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
-    "Mathias Bynens <mathias@qiwi.be> (https://mathiasbynens.be/)"
-  ],
-  "repository": "lodash/lodash",
-  "scripts": { "test": "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\"" }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:743d4b6995e0f1976d39bc634a9513cfe32bcff6405f04ce001fddea0a4119a0
+size 749

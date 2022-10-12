@@ -1,3 +1,5 @@
+import React, { useState, useEffect, useContext } from "react";
+
 import dynamic from "next/dynamic";
 const Header = dynamic(
   () => {
@@ -8,13 +10,18 @@ const Header = dynamic(
 import ConnectWalletContainer from '../containers/ConnectWallet';
 import Footer from '../layouts/Footer';
 
-const ConnectWallet = () => {
+import {NFTMarketplaceProvider} from "../Context/NFTMarketplaceContext";
 
+
+const ConnectWallet = () => {
+  
   return (
     <>
+        <NFTMarketplaceProvider>
       	<Header Title='Wallet Connect' />
       	<ConnectWalletContainer />
     	<Footer />
+      </NFTMarketplaceProvider>
     </>
   );
 }
